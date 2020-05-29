@@ -5,9 +5,14 @@
 }
 
 body {
-    background-image: linear-gradient(to left, #028090,#05668D);
+    background-color: darkslateblue;
     font-family: Arial;
 }
+
+header {
+    background-image: linear-gradient(to left, #028090,#05668D);
+}
+
 
 header {
     display:flex;
@@ -170,6 +175,8 @@ header {
     object-position: right top;
     float: right;
     margin-left: 10px;
+    border-radius: 100px;
+    padding-bottom: 10px;
 }
 
 @media (min-width: 1100px){
